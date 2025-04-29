@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import educationportrait from "../styles/educationportrait.module.css";
 import { edudata } from "@/app/lib/education.js";
 import { certification } from "@/app/lib/certification.js";
