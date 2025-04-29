@@ -1,0 +1,84 @@
+.toppage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+  overflow: hidden;
+  width: 100vw;
+  height: 50vh;
+  background-image: url("/background.svg");
+  background-repeat: no-repeat;
+}
+
+.topframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 25vh;
+}
+
+.photoside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 25vh;  
+}
+
+.image {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+}
+
+.mynameandtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  width: 36vw;
+  height: 25vh;
+}
+
+.mynamebox {
+  display:block;
+  width: 34vw;
+  height: 5vh;
+  text-align: center;
+}
+
+.myname {
+  font-family: var(--font-merriweather);
+font-size: clamp(1rem, 3vw, 5rem);
+  font-style: normal;
+  font-color: #00090A;
+}
+
+.mytitlebox {
+  display:block;
+  width: 34vw;
+  height: 5vh;
+  text-align: center;
+}
+
+.mytitle {
+  font-family: var(--font-merriweather);
+font-size: clamp(1rem, 2vw, 5rem);
+  font-style: normal;
+  font-color: #00090A;
+}
+
+.bottomframe {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 25vh;
+}

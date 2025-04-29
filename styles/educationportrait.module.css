@@ -1,0 +1,160 @@
+.fullframe {
+  grid-row: 2;
+  align-self: flex-start;
+  display: grid;
+  grid-template-rows: 60vh 70vh;
+  align-items: flex-start;
+  justify-items: center;
+  width: 100vw;
+  height: 130vh;
+}
+
+.degreelist_backgroundsvg {
+  background-image: url("/level6.svg");
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  align-self: flex-start;
+  width: 100vw;
+  height: 81vh;
+  z-index: 5;
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+    justify-content: center;
+}
+
+.degreelist_table {
+   border-radius: 5vw 5vh;
+   border-collapse: separate;
+   border-spacing: 0;
+   overflow: hidden;
+    width: 80vw;
+    height: 33vh;
+}
+
+.degreelist_thead {
+  width: 80vw;
+  height: 8vh;
+  background-color: #1FDBE5;
+}
+
+.degreelist_th_word {
+ font-size: clamp(1rem, 2vw, 5rem);
+ text-align: center;
+}
+
+.degreelist_tbody_university {
+  width: 80vw;
+  height: 25vh;
+  background-color: #0AD1DB;
+}
+
+/* Row Labels */
+.degreelist_td_universityword, 
+.degreelist_td_periodword,
+.degreelist_td_degreeword, 
+.degreelist_td_majorword,
+.degreelist_td_gpaword {
+   width:35vw;
+   height: 5vh;
+   text-align: right;
+font-size: clamp(1rem, 2vw, 5rem);
+}
+
+/* Data content */
+.degreelist_td_universitydata,
+.degreelist_td_perioddata, 
+.degreelist_td_degreedata, 
+.degreelist_td_majordata, 
+.degreelist_td_gpadata {
+  width:35vw;
+   height: 5vh;	
+   text-align: left;
+font-size: clamp(1rem, 2vw, 5rem);
+ }
+
+/* Grid rows */
+.degreelist_td_colon1,
+.degreelist_td_colon2,
+.degreelist_td_colon3,
+.degreelist_td_colon4,
+.degreelist_td_colon5
+ { 
+  width: 10vw;
+  height: 5vh; 
+  text-align: center;
+font-size: clamp(1rem, 2vw, 5rem);
+}
+
+.certificatelist_backgroundsvg {
+  grid-row: 2;
+  background-image: url("/level7.svg");
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  align-self: flex-start;
+  width: 100vw;
+  height: 70vh;
+  z-index: 4;
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+    justify-content: center;
+}
+
+.certificatelist_table {
+     border-radius: 5vw 5vh;
+   border-collapse: separate;
+   border-spacing: 0;
+   overflow: hidden;
+    width: 80vw;
+    height: 23vh;
+}
+
+.certificatelist_thead {
+   width: 70vw;
+   height: 8vh;
+   text-align: center;
+   background-color: #1FDBE5;
+}  
+
+.certificatelist_th_word {
+ font-size: clamp(1rem, 2vw, 5rem);
+ text-align: center;
+
+}
+
+.certificatelist_tbody_listcontainer {
+  width: 70vw;
+  height: 15vh;
+  background-color: #0AD1DB;
+}
+
+/* Row Labels */
+.certificatelist_td_networkingword, 
+.certificatelist_td_ethicalhackingword, 
+.certificatelist_td_cloudword {
+  width:30vw;
+   height: 5vh;
+  text-align: right;
+font-size: clamp(1rem, 2vw, 5rem);
+}
+ 
+/* Data content */
+.certificatelist_td_networkingdata, 
+.certificatelist_td_ethicalhackingdata, 
+.certificatelist_td_clouddata {
+  width:30vw;
+   height: 5vh;
+   text-align: left;
+font-size: clamp(1rem, 2vw, 5rem);
+}
+
+/* Grid rows */
+.certificatelist_td_colon1, 
+.certificatelist_td_colon2,  
+.certificatelist_td_colon3 { 
+    width: 10vw;
+   height: 5vh;
+   text-align: center;
+font-size: clamp(1rem, 2vw, 5rem);
+ }

@@ -1,0 +1,106 @@
+.detbioframe {
+  display: grid;
+  grid-template-columns: 8vw 36vw;
+  width: 44vw;
+  height: 35vh;
+  border: none;
+}
+
+.leftbioframe {
+  grid-column: 1;
+  width: 8vw;
+  height: 35vh;
+  position: relative;
+}
+
+.ellipsebio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  width: 16vw;
+  height: 35vh;
+  border-radius: 16vw/38vh;
+  background-color: #1FDBE5;
+}
+
+.birthdate {
+  width: 3vw;
+  height: 4vh;
+  transform: translateX(-50%);
+  background-image: url('/birthdate.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.address {
+  width: 3vw;
+  height: 4vh;
+  transform: translateX(-50%);
+  background-image: url('/address.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.email {
+  width: 3vw;
+  height: 4vh;
+  content: url('/email.svg');
+  transform: translateX(-50%);
+  background-image: url('/email.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.citizenship {
+  width: 3vw;
+  height: 4vh;
+  content: url('/citizenship.svg');
+  transform: translateX(-50%);
+  background-image: url('/citizenship.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.religion {
+  width: 3vw;
+  height: 4vh;
+  content: url('/religion.svg');
+  transform: translateX(-50%);
+  background-image: url('/religion.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rightbioframe {
+  grid-column: 2;
+  width: 36vw;
+  height: 35vh;
+  background-color: #0AD1DB;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.insiderightbioframe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 34vw;
+  height: 33vh;
+  gap: 1.5vh;
+}
+
+.mybirthdate, .myaddress, .myemail, .mycitizenship, .myreligion {
+font-size: clamp(1rem, 1.5vw, 5rem);
+}

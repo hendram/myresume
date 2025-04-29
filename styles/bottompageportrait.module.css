@@ -1,0 +1,9 @@
+.fullpage {
+ display: grid;
+ grid-template-rows: 150vh 130vh;
+ align-items: center;
+ justify-items: center;
+ width: 100vw;
+ height: 280vh;
+}
+

@@ -1,0 +1,100 @@
+.toppage {
+  display: grid;
+  grid-template-rows: 45vh 35vh 85vh;
+  align-items: center;
+  justify-items: center;
+  align-self: flex-start;
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+  width: 100vw;
+  height: 165vh;
+}
+
+.level1svg {
+  grid-row: 1;
+  background-image: url("/level1.svg");
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  align-self: flex-start;
+  width: 100vw;
+  height: 60vh;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}  
+
+.photoside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 45vh;
+}
+
+.image {
+  width: 27vw;
+  height: 27vw;
+  border-radius: 50%;
+}
+
+.mynameandtitle {
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  background-image: url("/level2.svg");
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  align-self: flex-start;
+  width: 100vw;
+  height: 48vh;
+  z-index: 9;
+}
+
+.mynamebox {
+  display:block;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+}
+
+.myname {
+  font-family: var(--font-merriweather);
+ font-size: clamp(1rem, 8vw, 5rem);
+  font-style: normal;
+  font-color: #01011E;
+}
+
+.mytitlebox {
+  display:block;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+}
+
+.mytitle {
+  font-family: var(--font-merriweather);
+  font-size: clamp(1rem, 6vw, 5rem);
+  font-style: normal;
+  font-color: #01011E;
+}
+
+.bottomframe {
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/level3.svg");
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  align-self: flex-start;
+  width: 100vw;
+  height: 103vh;
+  z-index: 8;
+}

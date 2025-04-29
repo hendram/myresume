@@ -1,0 +1,135 @@
+.fullframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60vh;
+  gap: 5vw;
+}
+
+.workexperience {
+  display: grid;
+  grid-template-columns: 57.5vw 12.5vw;
+  width: 70vw;
+  height: 60vh;
+}
+
+.workexperience_company {
+  grid-column: 1;
+  width: 57.5vw;
+  height: 60vh;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: #0AD1DB;
+}
+
+.workexperience_navigate {
+  grid-column: 2;
+  position: relative;
+  width: 12.5vw;
+  height: 60vh;
+  direction: rtl;
+}
+
+.workexperience_ellipse {
+  width: 25vw;
+  height: 60vh;
+  border-radius: 25vw/60vh;
+  background-color: #1FDBE5;
+}
+
+.workexperience_navBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  position: absolute; /* Allows free placement */
+  right: 2vw; /* Stick to the right */
+  top: 50%; /* Start from the middle */
+  transform: translateY(-50%); /* Perfect vertical centering */
+  z-index: 2;
+  width: 6vw;
+  height:5vh;
+ }
+
+ 
+.workexperience_navButtonLeft, .workexperience_navButtonRight {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 4.5vh;
+  height: 4.5vh;
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+font-size: clamp(1rem, 1.5vw, 5rem);
+}
+
+.workexperience_navButton:hover {
+  background-color: #0056b3;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 8vw 17vw;
+  width: 25vw; 
+  height: 60vh;
+}
+
+.skillsword {
+  grid-column: 1;
+  width: 8vw;
+  height: 60vh;
+  position: relative;
+}
+
+.skillsword_ellipse {
+  width: 16vw;
+  height: 60vh;
+  border-radius: 16vw/60vh;
+  background-color:  #1FDBE5;
+}
+
+.skillsword_skillsspan {
+font-size: clamp(1rem, 3vw, 5rem);
+  font-family: Arial, sans-serif;
+  color: blue; 
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.skillslist {
+  grid-column: 2;
+  width: 17vw;
+  height: 60vh;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0AD1DB;  
+  gap: 2vh;
+}
+
+.skillslist_javascript, .skillslist_typescript, .skillslist_htmlcss, .skillslist_nextjs, .skillslist_nodejs, .skillslist_python {
+  width: 16vw;
+  height: 3vh;
+  text-align: center;
+font-size: clamp(1rem, 1.5vw, 5rem);
+font-color: #01011E;
+}
+

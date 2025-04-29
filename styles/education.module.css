@@ -1,0 +1,192 @@
+.fullframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60vh;
+  gap: 5vw;
+}
+
+.degreelist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50vw;
+  height: 60vh;
+  background-color: #0AD1DB;
+  border-top-right-radius: 50vw;
+  border-bottom-right-radius: 50vw;
+  overflow: hidden;
+  border-radius: 1px solid black;  
+}
+
+
+.degreelist_university {
+  display: grid;
+  grid-template-columns: 21.5vw 2vw 21.5vw;
+  grid-template-rows: repeat(5, 11vh);
+  justify-items: stretch;
+  align-items: center;
+  width: 45vw;
+  height: 55vh;
+}
+
+
+.degreelist_headbanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #1FDBE5;
+  width: 45vw;
+  height: 5vh;
+font-size: clamp(1rem, 2vw, 5rem);
+ font-color: #00090A;
+}
+
+/* Row Labels */
+.degreelist_universityword, .degreelist_periodword, .degreelist_degreeword, .degreelist_majorword, .degreelist_gpaword {
+  grid-column: 1;
+  text-align: right;
+
+}
+
+/* Colon symbols */
+.degreelist_colonpart {
+  grid-column: 2;
+  text-align: center;
+}
+
+/* Data content */
+.degreelist_universitydata, .degreelist_perioddata, .degreelist_degreedata, .degreelist_majordata, .degreelist_gpadata {
+  grid-column: 3;
+  text-align: left;
+}
+
+/* Grid rows */
+.degreelist_universityword, 
+.degreelist_colon1, 
+.degreelist_univdata { 
+  grid-row: 1; 
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.degreelist_periodword, 
+.degreelist_colon2, 
+.degreelist_perioddata { 
+  grid-row: 2; 
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.degreelist_degreeword, 
+.degreelist_colon3, 
+.degreelist_degreedata { 
+  grid-row: 3; 
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.degreelist_majorword, 
+.degreelist_colon4, 
+.degreelist_majordata { 
+  grid-row: 4; 
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.degreelist_gpaword, 
+.degreelist_colon5, 
+.degreelist_gpadata { 
+  grid-row: 5; 
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.certificatelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45vw;
+  height: 60vh;
+  background-color: #0AD1DB;
+  border-top-left-radius: 50vw;
+  border-bottom-left-radius: 50vw;
+  overflow: hidden;
+}
+
+.certificatelist_headbanner {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   width: 45vw;
+   height: 5vh;
+   background-color: #1FDBE5;
+font-size: clamp(1rem, 2vw, 5rem);
+ font-color: #00090A;
+}  
+
+.certificatelist_listcontainer {
+   display: grid;
+   grid-template-columns: 21.5vw 2vw 21.5vw;
+   grid-template-rows: repeat(3, 18.33vh);
+   align-items: center;
+ justify-content: stretch;
+   width: 45vw;
+   height: 55vh;
+}
+
+/* Row Labels */
+.certificatelist_networkingword, 
+.certificatelist_ethicalhackingword, 
+.certificatelist_cloudword {
+  grid-column: 1;   
+  text-align: right;
+}
+ 
+/* Colon symbols */
+.certificatelist_colonpart {
+  grid-column: 2;    
+  text-align: center;
+}
+ 
+/* Data content */
+.certificatelist_networkingdata, 
+.certificatelist_ethicalhackingdata, 
+.certificatelist_clouddata {
+  grid-column: 3;
+  text-align: left;
+}
+
+/* Grid rows */
+.certificatelist_networkingword, 
+.certificatelist_colon1, 
+.certificatelist_networkingdata {
+  grid-row: 1;
+  align-self: end;
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.certificatelist_ethicalhackingword, 
+.certificatelist_colon2, 
+.certificatelist_ethicalhackingdata {
+  grid-row: 2;
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}
+
+.certificatelist_cloudword, 
+.certificatelist_colon3, 
+.certificatelist_clouddata {
+  grid-row: 3;
+  align-self: start;
+font-size: clamp(1rem, 1.5vw, 5rem);
+  font-color: #01011E;
+}

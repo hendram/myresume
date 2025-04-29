@@ -1,0 +1,33 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  background: #0AD1DB;
+  width: 54vw;
+  height: 58vh;
+  text-align: center;
+}
+
+.company {
+  font-size: clamp(0.5rem, 4vw, 5rem);
+  color: #007bff;
+}
+
+.position {
+  font-size: clamp(0.4rem, 3.5vw, 5rem);
+  color: #333;
+}
+
+.duration {
+  font-size: clamp(0.3rem, 3vw, 5rem);
+  font-color: #00090A;
+}
+
+.details {
+  list-style-type: none;
+  font-size: clamp(0.3rem, 3vw, 5rem);
+  font-color: #01011E;
+  padding: 0;
+}

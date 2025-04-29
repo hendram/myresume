@@ -1,0 +1,13 @@
+.fullpage {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 3vh;
+width: 100vw;
+height: 176vh;
+background-color: #D0F8FB;
+overflow-y: auto;
+scroll-behavior: smooth;
+}
+

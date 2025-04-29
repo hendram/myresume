@@ -1,0 +1,142 @@
+.dettableframe {
+ width: 80vw;
+ height: 60vh;
+ border-collapse: separate;
+ border-spacing: 0;
+ border-radius: 5vw 5vh;
+ overflow: hidden;
+}
+
+.dettablebody {
+ width: 80vw;
+ height: 60vh;
+}
+
+.firsttr, .secondtr, .thirdtr, .fourthtr, .fifthtr {
+  width: 80vw;
+  height: 12vh;
+}
+
+.td1birthdate, .td1address, .td1email, .td1citizenship, .td1religion {
+  width: 8vw;
+  height: 12vh;
+  vertical-align: middle;
+  background-color: #1FDBE5;
+}
+
+.birthdate {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/birthdate.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+.td2birthdate, .td2address, .td2email, .td2citizenship, .td2religion {
+  width: 72vw;
+  height: 12vh;
+  vertical-align: middle;
+  background-color: #0AD1DB;
+}
+
+.mybirthdate {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(1rem, 5vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}
+
+.address {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/address.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+.myaddress {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(1rem, 5vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}
+
+.email {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/email.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+.myemail {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(1rem, 5vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}
+
+.citizenship {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/citizenship.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.mycitizenship {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(1rem, 5vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}
+
+.religion {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/religion.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.myreligion {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(1rem, 5vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}
+
+
