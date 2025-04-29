@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import slideshow from "../styles/slideshow.module.css";
 import Slide from "./Slide";
 import { data } from "@/app/lib/data";
