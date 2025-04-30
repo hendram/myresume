@@ -10,6 +10,7 @@
   height: 50vh;
   background-image: url("/background.svg");
   background-repeat: no-repeat;
+  margin-top: 1vh;
 }
 
 .topframe {
