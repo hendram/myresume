@@ -22,12 +22,12 @@
 
 .duration {
   font-size: clamp(0.4rem, 3vw, 5rem);
-  font-color: #00090A;
+  color: #00090A;
 }
 
 .details {
   list-style-type: none;
   font-size: clamp(0.4rem, 3vw, 5rem);
-  font-color: #01011E;
+  color: #01011E;
   padding: 0;
 }
