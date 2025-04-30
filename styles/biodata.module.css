@@ -28,7 +28,8 @@
   align-items: center;
   justify-content: center;
   width: 15vw;
-  height: 25vh;  
+  height: 24.9vh;
+  margin-top: 0.1vh;  
 }
 
 .image {
