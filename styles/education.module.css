@@ -68,7 +68,7 @@ font-size: clamp(0.4rem, 2vw, 5rem);
 /* Grid rows */
 .degreelist_universityword, 
 .degreelist_colon1, 
-.degreelist_univdata { 
+.degreelist_universitydata { 
   grid-row: 1; 
 font-size: clamp(0.4rem, 1.5vw, 5rem);
   color: #01011E;

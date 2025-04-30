@@ -135,6 +135,7 @@ font-size: clamp(0.4rem, 2vw, 5rem);
   width: 80vw;
   height: 8vh;
 font-size: clamp(0.4rem, 2vw, 5rem);
+  color: #01011E;
 }
 
 .skillslist_tbody {
@@ -164,5 +165,6 @@ font-size: clamp(0.4rem, 2vw, 5rem);
   height: 5vh;
   text-align: center;
 font-size: clamp(0.4rem, 2vw, 5rem);
+  color: #01011E;
 }
 

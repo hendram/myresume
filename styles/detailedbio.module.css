@@ -108,14 +108,12 @@
   gap: 0vh;
 }
 
-.insiderightbioframe h3 {
+.mybirthdate, .myaddress, .myemail, .mycitizenship, .myreligion, .mygithub {
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: left;
   height: 100%;
-}
-
-.mybirthdate, .myaddress, .myemail, .mycitizenship, .myreligion, .mygithub {
-font-size: clamp(0.4rem, 1.5vw, 5rem);
+  color: #01011E;
 }
