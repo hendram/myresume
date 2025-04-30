@@ -42,7 +42,7 @@
   background-color: #1FDBE5;
   width: 45vw;
   height: 5vh;
-font-size: clamp(1rem, 2vw, 5rem);
+font-size: clamp(0.4rem, 2vw, 5rem);
  font-color: #00090A;
 }
 
@@ -70,7 +70,7 @@ font-size: clamp(1rem, 2vw, 5rem);
 .degreelist_colon1, 
 .degreelist_univdata { 
   grid-row: 1; 
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -78,7 +78,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .degreelist_colon2, 
 .degreelist_perioddata { 
   grid-row: 2; 
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -86,7 +86,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .degreelist_colon3, 
 .degreelist_degreedata { 
   grid-row: 3; 
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -94,7 +94,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .degreelist_colon4, 
 .degreelist_majordata { 
   grid-row: 4; 
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -102,7 +102,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .degreelist_colon5, 
 .degreelist_gpadata { 
   grid-row: 5; 
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -128,7 +128,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
    width: 45vw;
    height: 5vh;
    background-color: #1FDBE5;
-font-size: clamp(1rem, 2vw, 5rem);
+font-size: clamp(0.4rem, 2vw, 5rem);
  font-color: #00090A;
 }  
 
@@ -170,7 +170,7 @@ font-size: clamp(1rem, 2vw, 5rem);
 .certificatelist_networkingdata {
   grid-row: 1;
   align-self: end;
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -178,7 +178,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .certificatelist_colon2, 
 .certificatelist_ethicalhackingdata {
   grid-row: 2;
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }
 
@@ -187,6 +187,6 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 .certificatelist_clouddata {
   grid-row: 3;
   align-self: start;
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
   font-color: #01011E;
 }

@@ -15,7 +15,6 @@ return(
         <div className={detailedbioportrait.mybirthdate}>{detbio.birthdate}</div>
       </td>
     </tr>
-
     <tr className={detailedbioportrait.secondtr}>
       <td className={detailedbioportrait.td1address}> 
         <div className={detailedbioportrait.address}></div>    
@@ -24,7 +23,6 @@ return(
         <div className={detailedbioportrait.myaddress}>{detbio.address}</div>
       </td>
     </tr>
-
     <tr className={detailedbioportrait.thirdtr}>
       <td className={detailedbioportrait.td1email}> 
         <div className={detailedbioportrait.email}></div>
@@ -33,7 +31,6 @@ return(
         <div className={detailedbioportrait.myemail}>{detbio.email}</div>
       </td>
     </tr>
-
     <tr className={detailedbioportrait.fourthtr}>
       <td className={detailedbioportrait.td1citizenship}> 
         <div className={detailedbioportrait.citizenship}></div>
@@ -42,7 +39,6 @@ return(
         <div className={detailedbioportrait.myemail}>{detbio.citizenship}</div>
       </td>
     </tr>
-
     <tr className={detailedbioportrait.fifthtr}>
       <td className={detailedbioportrait.td1religion}> 
         <div className={detailedbioportrait.religion}></div>
@@ -51,6 +47,14 @@ return(
         <div className={detailedbioportrait.myreligion}>{detbio.religion}</div>
       </td>
     </tr>
+    <tr className={detailedbioportrait.sixthtr}>
+      <td className={detailedbioportrait.td1github}> 
+        <div className={detailedbioportrait["github-mark"]}></div>
+      </td>
+      <td className={detailedbioportrait.td2github}> 
+        <div className={detailedbioportrait.mygithub}>{detbio.github}</div>
+      </td>
+    </tr>	
   </tbody>
 </table>
 );

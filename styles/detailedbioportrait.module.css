@@ -12,12 +12,12 @@
  height: 60vh;
 }
 
-.firsttr, .secondtr, .thirdtr, .fourthtr, .fifthtr {
+.firsttr, .secondtr, .thirdtr, .fourthtr, .fifthtr, .sixthtr {
   width: 80vw;
   height: 12vh;
 }
 
-.td1birthdate, .td1address, .td1email, .td1citizenship, .td1religion {
+.td1birthdate, .td1address, .td1email, .td1citizenship, .td1religion, .td1github {
   width: 8vw;
   height: 12vh;
   vertical-align: middle;
@@ -36,7 +36,7 @@
 }
 
 
-.td2birthdate, .td2address, .td2email, .td2citizenship, .td2religion {
+.td2birthdate, .td2address, .td2email, .td2citizenship, .td2religion, .td2github {
   width: 72vw;
   height: 12vh;
   vertical-align: middle;
@@ -48,7 +48,7 @@
   height: 4vh;
   display: inline-block;
   text-align: left;
- font-size: clamp(1rem, 5vw, 5rem);
+ font-size: clamp(0.4rem, 3vw, 5rem);
   margin-left: 1vh;
   font-weight: 400;
 }
@@ -70,7 +70,7 @@
   height: 4vh;
   display: inline-block;
   text-align: left;
- font-size: clamp(1rem, 5vw, 5rem);
+ font-size: clamp(0.4rem, 3vw, 5rem);
   margin-left: 1vh;
   font-weight: 400;
 }
@@ -92,7 +92,7 @@
   height: 4vh;
   display: inline-block;
   text-align: left;
- font-size: clamp(1rem, 5vw, 5rem);
+ font-size: clamp(0.4rem, 3vw, 5rem);
   margin-left: 1vh;
   font-weight: 400;
 }
@@ -113,7 +113,7 @@
   height: 4vh;
   display: inline-block;
   text-align: left;
- font-size: clamp(1rem, 5vw, 5rem);
+ font-size: clamp(0.4rem, 3vw, 5rem);
   margin-left: 1vh;
   font-weight: 400;
 }
@@ -134,9 +134,29 @@
   height: 4vh;
   display: inline-block;
   text-align: left;
- font-size: clamp(1rem, 5vw, 5rem);
+ font-size: clamp(0.4rem, 3vw, 5rem);
   margin-left: 1vh;
   font-weight: 400;
 }
 
 
+.github-mark {
+  width: 8vw;
+  height: 4vh;
+  background-image: url('/github-mark.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.mygithub {
+  width: 72vw;
+  height: 4vh;
+  display: inline-block;
+  text-align: left;
+ font-size: clamp(0.4rem, 3vw, 5rem);
+  margin-left: 1vh;
+  font-weight: 400;
+}

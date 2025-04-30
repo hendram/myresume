@@ -16,18 +16,18 @@
 }
 
 .position {
-  font-size: clamp(0.4rem, 3.5vw, 5rem);
+  font-size: clamp(0.45rem, 3.5vw, 5rem);
   color: #333;
 }
 
 .duration {
-  font-size: clamp(0.3rem, 3vw, 5rem);
+  font-size: clamp(0.4rem, 3vw, 5rem);
   font-color: #00090A;
 }
 
 .details {
   list-style-type: none;
-  font-size: clamp(0.3rem, 3vw, 5rem);
+  font-size: clamp(0.4rem, 3vw, 5rem);
   font-color: #01011E;
   padding: 0;
 }

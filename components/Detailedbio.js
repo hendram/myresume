@@ -13,6 +13,7 @@ return(
       <div className={detailedbio.email}></div>
       <div className={detailedbio.citizenship}></div>
       <div className={detailedbio.religion}></div>
+      <div className={detailedbio["github-mark"]}></div>
     </div>
   </div>  
   <div className={detailedbio.rightbioframe}>
@@ -22,6 +23,7 @@ return(
       <h3 className={detailedbio.myemail}>{detbio.email}</h3>
       <h3 className={detailedbio.mycitizenship}>{detbio.citizenship}</h3>
       <h3 className={detailedbio.myreligion}>{detbio.religion}</h3>
+      <h3 className={detailedbio.mygithub}>{detbio.github}</h3>
     </div>
   </div> 
 </div>

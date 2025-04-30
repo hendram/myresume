@@ -55,7 +55,7 @@
 
 .myname {
   font-family: var(--font-merriweather);
-font-size: clamp(1rem, 3vw, 5rem);
+font-size: clamp(0.4rem, 3vw, 5rem);
   font-style: normal;
   font-color: #00090A;
 }
@@ -69,7 +69,7 @@ font-size: clamp(1rem, 3vw, 5rem);
 
 .mytitle {
   font-family: var(--font-merriweather);
-font-size: clamp(1rem, 2vw, 5rem);
+font-size: clamp(0.4rem, 2vw, 5rem);
   font-style: normal;
   font-color: #00090A;
 }

@@ -68,7 +68,7 @@
   cursor: pointer;
   aspect-ratio: 1/1;
   border-radius: 50%;
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
 }
 
 .workexperience_navButton:hover {
@@ -97,7 +97,7 @@ font-size: clamp(1rem, 1.5vw, 5rem);
 }
 
 .skillsword_skillsspan {
-font-size: clamp(1rem, 3vw, 5rem);
+font-size: clamp(0.4rem, 3vw, 5rem);
   font-family: Arial, sans-serif;
   color: blue; 
   text-align: center;
@@ -129,7 +129,7 @@ font-size: clamp(1rem, 3vw, 5rem);
   width: 16vw;
   height: 3vh;
   text-align: center;
-font-size: clamp(1rem, 1.5vw, 5rem);
+font-size: clamp(0.4rem, 1.5vw, 5rem);
 font-color: #01011E;
 }
 
