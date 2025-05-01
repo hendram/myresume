@@ -5,7 +5,6 @@ align-items: center;
 justify-content: center;
 width: 100vw;
 height: 445vh;
-height: 445dvh;
 background-color: #D0F8FB;
 overflow-y: auto;
 scroll-behavior: smooth;
