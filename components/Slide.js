@@ -1,15 +1,31 @@
-import React from "react";
-import styles from "../styles/slide.module.css";
+import React, { useState } from "react";
+import slide from "../styles/slide.module.css";
 
 const Slide = ({ data }) => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   return (
-    <div className={styles.slide}>
-      <h2 className={styles.company}>{data.company}</h2>
-      <h3 className={styles.position}>{data.position}</h3>
-      <p className={styles.duration}>{data.duration}</p>
-      <ul className={styles.details}>
-        {data.details.map((detail, index) => (
-          <li key={index}>{detail}</li>
+   <div className={slide.slide}>
+      <h2 className={slide.company}>{data.company}</h2>
+      <h3 className={slide.position}>{data.position}</h3>
+      <p className={slide.duration}>{data.duration}</p>
+      <ul className={slide.details}>
+        {data.details.map((item, index) => (
+          <li
+            key={index}
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
+            className={slide.detailItem}
+          >
+            {item.text}
+            {hoveredIndex === index && (
+              <div className={slide.tooltip}>
+                <div className={slide.tooltipbox}>
+                  {item.desc}
+                </div>
+              </div>
+            )}
+          </li>
         ))}
       </ul>
     </div>

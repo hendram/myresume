@@ -1,10 +1,10 @@
 .fullpage {
  display: grid;
- grid-template-rows: 60vh 60vh;
+ grid-template-rows: 60vh 30vh;
  align-items: center;
  justify-items: center;
  row-gap: 3vh;
  width: 100vw;
- height: 123vh;
+ height: 93vh;
 }
 

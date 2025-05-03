@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 60vh;
+  height: 30vh;
   gap: 5vw;
 }
 
@@ -14,7 +14,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 50vw;
-  height: 60vh;
+  height: 30vh;
   background-color: #0AD1DB;
   border-top-right-radius: 50vw;
   border-bottom-right-radius: 50vw;
@@ -26,11 +26,11 @@
 .degreelist_university {
   display: grid;
   grid-template-columns: 21.5vw 2vw 21.5vw;
-  grid-template-rows: repeat(5, 11vh);
+  grid-template-rows: repeat(5, 5vh);
   justify-items: stretch;
   align-items: center;
   width: 45vw;
-  height: 55vh;
+  height: 25vh;
 }
 
 
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   background-color: #1FDBE5;
-  width: 45vw;
+  width: 50vw;
   height: 5vh;
 font-size: clamp(0.4rem, 2vw, 5rem);
  color: #00090A;
@@ -112,7 +112,7 @@ font-size: clamp(0.4rem, 1.5vw, 5rem);
   align-items: center;
   justify-content: flex-start;
   width: 45vw;
-  height: 60vh;
+  height: 30vh;
   background-color: #0AD1DB;
   border-top-left-radius: 50vw;
   border-bottom-left-radius: 50vw;
@@ -135,11 +135,11 @@ font-size: clamp(0.4rem, 2vw, 5rem);
 .certificatelist_listcontainer {
    display: grid;
    grid-template-columns: 21.5vw 2vw 21.5vw;
-   grid-template-rows: repeat(3, 18.33vh);
+   grid-template-rows: repeat(3, 8.33vh);
    align-items: center;
  justify-content: stretch;
    width: 45vw;
-   height: 55vh;
+   height: 25vh;
 }
 
 /* Row Labels */
