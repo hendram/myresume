@@ -1,8 +1,39 @@
 export  const data = [
+    { 
+      company: "PT Revou",
+      position: "IT Trainer",
+      duration: "Feb 2023 - Current",
+      details: [
+        {
+        text: "Delivered Javascript and typescript programming training to university students",
+        desc: `Mentoring university students to finishing their capstone projects, delivering first in Indonesia
+               IT training along with AI using chatGPT for advanced generation UI/UX, like generating simple
+               framework for dashboard. Working together using zoom and google meet with hundreds of students
+               all over indonesia and using tools for remote working like slack, notion, and other custom web based
+               tools`
+        },
+       {
+        text: `Delivered Web and API Application Penetration test training for banks and securities customer using 
+               custom optimized docker container and hacking tools`,
+        desc: `Delivered training for students from BUMN bank and securities companies about Vulnerability 
+               scanning, cataloging, and web application pentest, api pentest using tools like Burp suite, 
+               OWASP ZAP, nmap, shodan.io, censys.io, mitmweb, wfuzz, ghauri, sqlmap using containerized 
+               optimized docker build and in depth tricks on XSS, SQL injection, GraphQL injection, 
+               Websocket hack, RFI/LFI, deserialization attack, BOLA, BLFA, IDOR, BAC and many 
+               other tricks along with creating POC using scripts, and creating
+               jython scripts for automating large scale scanning and injection test. `  
+         },
+        {
+        text:  "Delivered AWS basic training to university students",
+        desc: `Deliverd basic training to university students about AWS EC2, IAM, Lambda, S3, RDS, VPC,
+               Cloudwatch, ELB, SNS/SQS using standard AWS labs.`
+        }
+      ]
+    },
       {
       company: "PT. Energyx & PT. Metrocom Global Solusi",
       position: "Developer",
-      duration: "Jan 2018 - Present",
+      duration: "Jan 2018 - Jan 2023",
       details: [
         {
         text: "Designed, built and publish customerservice web apps for customer",
