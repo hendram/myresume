@@ -51,7 +51,7 @@
   align-items: center;
   justify-content: center;
   max-width: 50vw; /* limits the width but allows shrinking */
-  max-height: 20vh;
+  max-height: auto;
   position: absolute;
   top: 100%;
   left: 0;

@@ -6,11 +6,12 @@ export  const data = [
       details: [
         {
         text: "Delivered Javascript and typescript programming training to university students",
-        desc: `Mentoring university students to finishing their capstone projects, delivering first in Indonesia
-               IT training along with AI using chatGPT for advanced generation UI/UX, like generating simple
-               framework for dashboard. Working together using zoom and google meet with hundreds of students
-               all over indonesia and using tools for remote working like slack, notion, and other custom web based
-               tools`
+        desc: `Mentoring university students to finishing their capstone projects, explaining detailed about
+               javascript debugging process, css debugging process, and how complex javascript async works,
+               delivering first in Indonesia IT training along with AI using chatGPT for advanced generation UI/UX, 
+               like generating simple framework for dashboard. Working together using zoom and google meet 
+               with hundreds of students all over indonesia and using tools for remote working like slack, 
+               notion, and other custom web based tools`
         },
        {
         text: `Delivered Web and API Application Penetration test training for banks and securities customer using 
@@ -37,8 +38,8 @@ export  const data = [
       details: [
         {
         text: "Designed, built and publish customerservice web apps for customer",
-        desc: `Designed web based customerservice apps for chongsan forwarder client which user can chat through chat window and
-               line up for waiting customer service person to pick them up to talk to. This web based
+        desc: `Designed web based customerservice apps for chongsan forwarder client which user can chat through chat 
+               window and line up for waiting customer service person to pick them up to talk to. This web based
                apps build still not using AI at all`
         },
         { 
@@ -109,14 +110,15 @@ export  const data = [
       desc: `Implemented new datacenter system which all redundant, and having three layer design. Redundancy from
              core cisco switch, access switch, cisco firewall ASA, NAS backup storage server and even IPS event management module. 
              CSS load balancer terminated ssl with single arm configuration and balancing traffic into servers are 
-             redundant too. Integrating, configuring and coordinating cisco switch on access layers with team`
+             redundant too. Integrating cisco access switch to MSTP, configuring and coordinating cisco switch 
+             installation with team`
       },
       {
       text: `Designing and configuring nagios monitoring server`,
       desc: `Designing and configuring nagios monitoring server to monitor each server, like database, 
         proxy, mail, nginx reverse proxy, wsus, active directory, backup server is down or keep up and healthly.
         Configuring all ntp clients on all these servers to synchronize logs and times between nagios monitoring 
-        system and all host servers.`
+        system and all agent servers.`
       },
       {
         text: "Troubleshooting complex nacl on cisco firewall asa, and wsus auto push update",
@@ -131,7 +133,12 @@ export  const data = [
         desc: `Design, negotiate and dealing with some NAP provider to migrate wireless backbone ISP to fiber 
                optic spanning multiple building on sudirman area, IP address new assignment and changing
                on every mikrotik, linksys and 3com devices for ISP client and their clients too`
-      }
+      },
+       {
+        text: "Detecting and removing old access point on buildings using Ekahau and replacing with a new one",
+        desc: `Using ekahau heat map tools to detect where is the position of old access point behind of ceiling,
+               to be replaced with new HP access point which support till 802.11ac specification.` 
+       }
      ]
     },
     {
@@ -174,7 +181,9 @@ export  const data = [
   },
   {
     text: "Sun, Dell and HP machine installation, configuring, troubleshooting",
-    desc: `Open up, build and install operating system, configuring log and audit on unix system before delivering to clients`
+    desc: `Open up, build and install operating system, configuring log and audit on unix system, configuring raid, design 
+           and setup partition size along with filesystem type using sun solaris, freebsd or linux before 
+           delivering to clients`
   }
 ]
 },
@@ -190,7 +199,8 @@ export  const data = [
    },
   {
   text: "Designing, configuring and troubleshooting Breezecom wireless ISP backbone on Mobitel",
-  desc: `Designing, configuring ip addresses allocation, and cell allocation for Mobitel ISP Wireless provider with mobitel team`
+  desc: `Designing, configuring ip addresses allocation, and cell allocation, sizes for Mobitel ISP Wireless provider with 
+         mobitel team`
    },
   {
   text: "Designing, configuring, and troubleshooting CiscoWorks 2000 management system software",
