@@ -131,7 +131,8 @@ export  const data = [
        {
         text: "Planned ISP backbone migration & vendor management.",
         desc: `Design, negotiate and dealing with some NAP provider to migrate wireless backbone ISP to fiber 
-               optic spanning multiple building on sudirman area, IP address new assignment and changing
+               optic spanning multiple building on sudirman area leading to cut cost 200% with faster and bigger
+               bandwidth using fiber optic and better infrastucture, IP address new assignment and changing
                on every mikrotik, linksys and 3com devices for ISP client and their clients too`
       },
        {
