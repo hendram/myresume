@@ -85,13 +85,12 @@ font-size: clamp(0.4rem, 4vw, 5rem);
   background-color: #007bff;
   color: white;
   border: none;
-  width: 8vh;
-  height: 8vh;
+  width: 50%;
+  height: 50%;
   cursor: pointer;
   aspect-ratio: 1/1;
-  font-size: 5vw;
   border-radius: 50%;
-font-size: clamp(0.4rem, 4vw, 5rem);
+font-size: clamp(0.4rem, 2.5vw, 5rem);
 }
 
 .workexperience_navButton:hover {
