@@ -44,29 +44,3 @@
   position: relative;
   cursor: pointer;
 }
-
-.tooltip {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 50vw; /* limits the width but allows shrinking */
-  max-height: auto;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  border-radius: 2vw 1vh;
-  white-space: normal; /* allow wrapping if needed */
-  z-index: 10;
-  background-color: black;
-  padding: 1vh 1vw;
-}
-
-.tooltipbox {
-  font-size: clamp(0.5rem, 2.5vw, 5rem);
-  text-align: justify;
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: auto;
-}

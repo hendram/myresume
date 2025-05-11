@@ -1,8 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import slideportrait from "../styles/slideportrait.module.css";
+import PortalTooltip from "./PortalTooltipportrait.js"; 
 
 const Slideportrait = ({ data }) => {
-    const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
+  const itemRefs = useRef([]);
+
+  useEffect(() => {
+    if (hoveredIndex !== null && itemRefs.current[hoveredIndex]) {
+      const rect = itemRefs.current[hoveredIndex].getBoundingClientRect();
+      setTooltipPos({
+        top: rect.bottom + window.scrollY,
+        left: rect.left + window.scrollX,
+      });
+    }
+  }, [hoveredIndex]);
+
+  const tooltipProps =
+    hoveredIndex !== null
+      ? {
+          desc: data.details[hoveredIndex].desc,
+          style: tooltipPos,
+        }
+      : null;
 
   return (
     <div className={slideportrait.slide}>
@@ -13,21 +34,20 @@ const Slideportrait = ({ data }) => {
         {data.details.map((item, index) => (
           <li
             key={index}
+            ref={(el) => (itemRefs.current[index] = el)}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
             className={slideportrait.detailItem}
           >
             {item.text}
-            {hoveredIndex === index && (
-              <div className={slideportrait.tooltip}>
-                <div className={slideportrait.tooltipbox}>
-                  {item.desc}
-                </div>
-              </div>
-            )}
           </li>
         ))}
       </ul>
+
+      { tooltipProps && 
+        <PortalTooltip {...tooltipProps} />
+      }
+
     </div>
   );
 };

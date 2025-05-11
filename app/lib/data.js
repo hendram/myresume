@@ -11,7 +11,8 @@ export  const data = [
                delivering first in Indonesia IT training along with AI using chatGPT for advanced generation UI/UX, 
                like generating simple framework for dashboard. Working together using zoom and google meet 
                with hundreds of students all over indonesia and using tools for remote working like slack, 
-               notion, and other custom web based tools`
+               notion, and other custom web based tools which outcome results all my students graduate with grade 
+               A(highest grade)`
         },
        {
         text: `Delivered Web and API Application Penetration test training for banks and securities customer using 
@@ -22,7 +23,9 @@ export  const data = [
                optimized docker build and in depth tricks on XSS, SQL injection, GraphQL injection, 
                Websocket hack, RFI/LFI, deserialization attack, BOLA, BLFA, IDOR, BAC and many 
                other tricks along with creating POC using scripts, and creating
-               jython scripts for automating large scale scanning and injection test. `  
+               jython scripts for automating large scale scanning and injection test. Explaining about WSTG(Web
+               Security Testing Guide) from OWASP, and advise solution for building different type KPI based on types 
+               vulnerability found like systems used in HackerOne, BugCrowd, or YesweHack.`  
          },
         {
         text:  "Delivered AWS basic training to university students",
