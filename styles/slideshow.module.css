@@ -143,32 +143,32 @@ font-size: clamp(0.4rem, 3vw, 5rem);
 }
 
 .skillslist_nextjs {
-      grid-row: 9;
+  grid-row: 9;
   grid-column: 3/5;
   width: 16vw;
   height: 3vh;
 }
  
 .skillslist_reactjs {
-      grid-row: 12;
+  grid-row: 12;
   grid-column: 2/4;
   width: 16vw;
   height: 3vh;
 }
 
 .skillslist_nodejs {
-      grid-row: 15;
+  grid-row: 15;
   grid-column: 1/2;
   width: 16vw;
   height: 3vh;
 }
 
-.skilllist_javascript, 
-.skilllist_typescript, 
-.skilllist_htmlcss, 
-.skilllist_nextjs, 
-.skilllist_reactjs,
-.skilllist_nodejs {
+.skillslist_javascript,
+.skillslist_typescript, 
+.skillslist_htmlcss, 
+.skillslist_nextjs,
+.skillslist_reactjs,
+.skillslist_nodejs {
  text-align: center;
  font-size: clamp(0.4rem, 1.5vw, 5rem);
  color: #01011E;
