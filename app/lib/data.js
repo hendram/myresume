@@ -34,7 +34,12 @@ export  const data = [
         {
         text:  "Delivered AWS basic training to university students",
         desc: `Deliverd basic training to university students about AWS EC2, IAM, Lambda, S3, RDS, VPC,
-               Cloudwatch, ELB, SNS/SQS using standard AWS labs.`
+               Cloudwatch, ELB, SNS/SQS using standard AWS labs.`,
+       skills: `Amazon EC2 (Elastic Compute Cloud), IAM (Identity and Access Management), AWS Lambda, 
+               Amazon S3 (Simple Storage Service), Amazon RDS (Relational Database Service),
+               Amazon VPC (Virtual Private Cloud), Amazon CloudWatch, Elastic Load Balancing (ELB),
+               Amazon SNS (Simple Notification Service), Amazon SQS (Simple Queue Service),
+               AWS Standard Labs Usage, AWS Fundamentals Training, University-Level Technical Instruction`
         }
       ]
     },
@@ -47,7 +52,10 @@ export  const data = [
         text: "Designed, built and publish customerservice web apps for customer",
         desc: `Designed web based customerservice apps for chongsan forwarder client which user can chat through chat 
                window and line up for waiting customer service person to pick them up to talk to. This web based
-               apps build still not using AI at all`
+               apps build still not using AI at all`,
+      skills: `Web Application Design, Web Application Development, Frontend Chat Interface Design
+              Queue System Implementation (customer service lineup logic), Real-Time Communication (non-AI based),
+              Client-Specific Web Solutions`
         },
         { 
         text: "Developed Web3 DApps token dex monitoring which monitoring token directly from DEX",
@@ -63,7 +71,7 @@ export  const data = [
                and just using token based authentication for admin who need to input data. Features like search
                with filter, update, delete, backup dan restore data exists too.`
        }, 
-      {
+      { 
         text: "npmjs.org: lineprogress (react component)",
         desc: `This is line as react component, which user can just set variables on it and lines can be thin 
                or thick, long or short, with different segment and color. Can be used on dashboard as separator`
