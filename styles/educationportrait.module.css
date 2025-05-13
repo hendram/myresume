@@ -11,6 +11,7 @@
 
 .degreelist_backgroundsvg {
   background-image: url("/level6.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0vw 0vh;
   align-self: flex-start;
@@ -93,6 +94,7 @@ font-size: clamp(0.4rem, 4vw, 5rem);
 .certificatelist_backgroundsvg {
   grid-row: 2;
   background-image: url("/level7.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0vw 0vh;
   align-self: flex-start;

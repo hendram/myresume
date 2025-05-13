@@ -13,6 +13,7 @@
 .level1svg {
   grid-row: 1;
   background-image: url("/level1.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0vw 0vh;
   align-self: flex-start;
@@ -48,6 +49,7 @@
   justify-content: center;
   gap: 5vh;
   background-image: url("/level2.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0vw 0vh;
   align-self: flex-start;
@@ -91,6 +93,7 @@
   align-items: center;
   justify-content: center;
   background-image: url("/level3.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0vw 0vh;
   align-self: flex-start;

@@ -12,7 +12,9 @@ export  const data = [
                like generating simple framework for dashboard. Working together using zoom and google meet 
                with hundreds of students all over indonesia and using tools for remote working like slack, 
                notion, and other custom web based tools which outcome results all my students graduate with grade 
-               A(highest grade)`
+               A(highest grade)`,
+        skills: `javascript, typescript, async javascript, javascript debugging, css debugging, ai assist ui/ux 
+                 generator, git, ci/cd`
         },
        {
         text: `Delivered Web and API Application Penetration test training for banks and securities customer using 
@@ -25,7 +27,9 @@ export  const data = [
                other tricks along with creating POC using scripts, and creating
                jython scripts for automating large scale scanning and injection test. Explaining about WSTG(Web
                Security Testing Guide) from OWASP, and advise solution for building different type KPI based on types 
-               vulnerability found like systems used in HackerOne, BugCrowd, or YesweHack.`  
+               vulnerability found like systems used in HackerOne, BugCrowd, or YesweHack.`,
+        skills: `web application pentest, api pentest, vulnerability cataloging, customize docker, poc scripting, 
+                jython scripting, owasp wstg`  
          },
         {
         text:  "Delivered AWS basic training to university students",

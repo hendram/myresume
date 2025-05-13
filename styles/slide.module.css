@@ -44,6 +44,11 @@
   cursor: pointer;
 }
 
+.detailItem:hover {
+ background-color: yellow;
+ border-radius: 2vw;
+}
+
 .tooltip {
   display: flex;
   flex-direction: row;

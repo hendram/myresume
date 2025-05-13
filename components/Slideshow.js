@@ -49,7 +49,7 @@ const Slideshow = () => {
       <span className={slideshow.skillslist_htmlcss}>HTML/CSS</span>
       <span className={slideshow.skillslist_nextjs}>Nextjs</span>
       <span className={slideshow.skillslist_nodejs}>Nodejs</span>
-      <span className={slideshow.skillslist_python}>Python</span>
+      <span className={slideshow.skillslist_reactjs}>Reactjs</span>
     </div>
   </div> {/* end of slideshow.skills */}
 </div>
