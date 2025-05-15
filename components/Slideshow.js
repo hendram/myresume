@@ -37,20 +37,31 @@ const Slideshow = () => {
   </div> {/* end of slideshow.workexperience */}
 
   <div className={slideshow.skills}>
-    <div className={slideshow.skillsword}>
-      <div className={slideshow.skillsword_ellipse}>
-        <span className={slideshow.skillsword_skillsspan}>Skills</span>
-      </div>
-    </div>
-
+ <div className={slideshow.skillheadline}>
+   <span>Skills</span>
+ </div>
     <div className={slideshow.skillslist}>
-      <span className={slideshow.skillslist_javascript}>Javascript</span>
-      <span className={slideshow.skillslist_typescript}>Typescript</span>
-      <span className={slideshow.skillslist_htmlcss}>HTML/CSS</span>
-      <span className={slideshow.skillslist_nextjs}>Nextjs</span>
-      <span className={slideshow.skillslist_nodejs}>Nodejs</span>
-      <span className={slideshow.skillslist_reactjs}>Reactjs</span>
-    </div>
+<span className={slideshow.skillslist_javascript}>Javascript</span>
+<span className={slideshow.skillslist_typescript}>Typescript</span>
+<span className={slideshow.skillslist_htmlcss}>HTML/CSS</span>
+<span className={slideshow.skillslist_nextjs}>Nextjs</span>
+<span className={slideshow.skillslist_nodejs}>Nodejs</span>
+<span className={slideshow.skillslist_python}>Python</span>
+<span className={slideshow.skillslist_java}>Java</span>
+<span className={slideshow.skillslist_aws}>AWS Cloud</span>
+<span className={slideshow.skillslist_docker}>Docker</span>
+<span className={slideshow.skillslist_networkdesign}>Network Design</span>
+<span className={slideshow.skillslist_linux}>Linux</span>
+<span className={slideshow.skillslist_git}>Git</span>
+<span className={slideshow.skillslist_cicd}>CI/CD</span>
+<span className={slideshow.skillslist_iot}>IOT</span>
+<span className={slideshow.skillslist_web3}>Web3</span>
+<span className={slideshow.skillslist_wireless}>Wireless</span>
+<span className={slideshow.skillslist_switching}>Switching</span>
+<span className={slideshow.skillslist_routing}>Routing</span>
+<span className={slideshow.skillslist_firewall}>Firewall</span>
+<span className={slideshow.skillslist_hacking}>Hacking</span>
+ </div>
   </div> {/* end of slideshow.skills */}
 </div>
  );

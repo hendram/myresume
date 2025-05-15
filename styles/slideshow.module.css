@@ -76,101 +76,214 @@ font-size: clamp(0.4rem, 1.5vw, 5rem);
 
 .skills {
   display: grid;
-  grid-template-columns: 8vw 17vw;
+  grid-template-rows: 5vh 55vh;
+  justify-items: end;
+  align-items: end;
   width: 25vw; 
   height: 60vh;
+  border-top-left-radius: 12vw 35vh;
+  border-bottom-left-radius: 12vw 35vh;
+  background-color: #1FDBE5;
+  overflow: hidden;
 }
 
-.skillsword {
-  grid-column: 1;
-  width: 8vw;
-  height: 60vh;
-  position: relative;
+.skillheadline {
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 5vh;
+  background-color: #11D5DF;
+  font-size: clamp(0.4rem, 2vw, 5rem);
+  color: #00090A;
 }
 
-.skillsword_ellipse {
-  width: 16vw;
-  height: 60vh;
-  border-radius: 16vw/60vh;
-  background-color:  #1FDBE5;
-}
-
-.skillsword_skillsspan {
-font-size: clamp(0.4rem, 3vw, 5rem);
-  font-family: Arial, sans-serif;
-  color: blue; 
-  text-align: center;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  justify-self: center;
-  align-self: center;
-  position: absolute;
-  left: 30%;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 .skillslist {
-  grid-column: 2;
+  grid-row: 2;
   display: grid;
-  grid-template-columns: 3.4vw 3.4vw 3.4vw 3.4vw 3.4vw;
-  grid-template-rows: 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh;
-  width: 17vw;
-  height: 60vh;
-  z-index: 2;
+  grid-template-columns: 4vw 4vw 4vw 4vw;
+  grid-template-rows:  5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+  width: 16vw;
+  height: 55vh;
   background-color: #0AD1DB;  
 }
 
 .skillslist_javascript {
-  grid-row: 2;
-  grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
+  grid-row: 1;
+  grid-column: 1/2;
+  color: orange;
+  font-size: clamp(0.4rem, 2.5vw, 5rem);
 }
 
 .skillslist_typescript {
-  grid-row: 4;
-  grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
+  grid-row: 2;
+  grid-column: 2/3;
+  color: deeppink;
+  font-size: clamp(0.4rem, 2vw, 5rem);
 }
 
 .skillslist_htmlcss {
-    grid-row: 6;
-  grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
+  grid-row: 3;
+  grid-column: 1/3;
+  color: red;
+  font-size: clamp(0.4rem, 3vw, 5rem);
+  align-self: center;
 }
 
 .skillslist_nextjs {
-  grid-row: 8;
-  grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
-}
- 
-.skillslist_reactjs {
-  grid-row: 10;
-  grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
+  grid-row: 4;
+  grid-column: 1/4;
+  color: black;
+  font-size: clamp(0.4rem, 2.2vw, 5rem);
 }
 
 .skillslist_nodejs {
-  grid-row: 12;
+  grid-row: 4/6;
   grid-column: 2/4;
-  width: 16vw;
-  height: 3vh;
+  color: teal;
+  font-size: clamp(0.4rem, 2vw, 5rem);
+  align-self: anchor-center;
 }
 
+.skillslist_python {
+  grid-row: 6/8;
+  grid-column: 1/2;
+  color: green;
+  font-size: clamp(0.4rem, 1.8vw, 5rem);
+}
+
+.skillslist_java {
+  grid-row: 10/12;
+  grid-column: 1/4;
+  color: blanchedalmond;
+  font-size: clamp(0.4rem, 3.8vw, 5rem);
+  align-self: center;
+}
+
+.skillslist_aws {
+  grid-row: 7/10;
+  grid-column: 1/3;
+  color: deeppink;
+  font-size: clamp(0.4rem, 3.6vw, 5rem);
+}
+
+.skillslist_docker {
+  grid-row: 9;
+  grid-column: 2/3;
+  color: navy;
+  font-size: clamp(0.4rem, 3vw, 5rem);
+}
+
+.skillslist_networkdesign {
+  grid-row: 10;
+  grid-column: 3/4;
+  color: brown;
+  font-size: clamp(0.4rem, 2.2vw, 5rem);
+}
+
+.skillslist_linux {
+  grid-row: 11;
+  grid-column: 1/2;
+  color: limegreen;
+  font-size: clamp(0.4rem, 3.4vw, 5rem);
+}
+
+.skillslist_git {
+  grid-row: 8;
+  grid-column: 3/5;
+  color: maroon;
+  font-size: clamp(0.4rem, 2.5vw, 5rem);
+}
+
+.skillslist_cicd {
+  grid-row: 8/10;
+  grid-column: 2/3;
+  color: darkcyan;
+  font-size: clamp(0.4rem, 3.1vw, 5rem);
+  align-self: anchor-center;
+}
+
+.skillslist_iot {
+  grid-row: 9/11;
+  grid-column: 2/3;
+  color: mediumvioletred;
+  font-size: clamp(0.4rem, 4.2vw, 5rem);
+  align-self: anchor-center;
+}
+
+.skillslist_web3 {
+  grid-row: 6/8;
+  grid-column: 2/5;
+  color: blueviolet;
+  font-size: clamp(0.4rem, 3.7vw, 5rem);
+  justify-self: flex-end;
+}
+
+.skillslist_wireless {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  color: steelblue;
+  font-size: clamp(0.4rem, 2.7vw, 5rem);
+  align-self: anchor-center;
+}
+
+.skillslist_switching {
+  grid-row: 2/4;
+  grid-column: 1/4;
+  color: indigo;
+  font-size: clamp(0.4rem, 2.1vw, 5rem);
+  align-self: anchor-center;
+}
+
+.skillslist_routing {
+  grid-row: 5/6;
+  grid-column: 1/3;
+  color: royalblue;
+  font-size: clamp(0.4rem, 2.4vw, 5rem);
+  align-self: anchor-center;
+}
+
+.skillslist_firewall {
+  grid-row: 5/7;
+  grid-column: 2/4;
+  color: crimson;
+  font-size: clamp(0.4rem, 3.2vw, 5rem);
+}
+
+.skillslist_hacking {
+  grid-row: 6/8;
+  grid-column: 3/5;
+  color: darkorange;
+  font-size: clamp(0.4rem, 2.8vw, 5rem);
+  justify-self: right;
+  align-self: anchor-center;
+}
+
+
+/* Shared font and color styles */
 .skillslist_javascript,
 .skillslist_typescript, 
 .skillslist_htmlcss, 
 .skillslist_nextjs,
 .skillslist_reactjs,
-.skillslist_nodejs {
- text-align: center;
- font-size: clamp(0.4rem, 1.5vw, 5rem);
- color: #01011E;
+.skillslist_nodejs,
+.skillslist_python,
+.skillslist_java,
+.skillslist_aws,
+.skillslist_docker,
+.skillslist_networkdesign,
+.skillslist_linux,
+.skillslist_git,
+.skillslist_cicd,
+.skillslist_iot,
+.skillslist_web3,
+.skillslist_wireless,
+.skillslist_switching,
+.skillslist_routing,
+.skillslist_firewall,
+.skillslist_hacking {
+  text-align: center;
 }
-
