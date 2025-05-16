@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import slide from "../styles/slide.module.css";
 
-const Slide = ({ data }) => {
+const Slide = ({ data, setSkills }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -13,8 +13,14 @@ const Slide = ({ data }) => {
         {data.details.map((item, index) => (
           <li
             key={index}
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
+            onMouseEnter={() => {
+                  setHoveredIndex(index);
+                  setSkills(item.skills);
+                  } }
+            onMouseLeave={() => {
+               setHoveredIndex(null);
+               setSkills(""); 
+               }}
             className={slide.detailItem}
           >
             {item.text}

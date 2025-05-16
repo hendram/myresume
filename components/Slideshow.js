@@ -7,7 +7,7 @@ import { data } from "@/app/lib/data";
 
 const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  const [skills, setSkills] = useState("");
 
   const goNext = () => {
     setCurrentIndex((currentIndex) => (currentIndex + 1) % data.length);
@@ -24,7 +24,7 @@ const Slideshow = () => {
 <div className={slideshow.fullframe}>
   <div className={slideshow.workexperience}>
     <div className={slideshow.workexperience_company}>
-      <Slide data={data[currentIndex]} />
+      <Slide data={data[currentIndex]} setSkills={setSkills} />
     </div>
     <div className={slideshow.workexperience_navigate}>
       <div className={slideshow.workexperience_ellipse}>
@@ -40,7 +40,18 @@ const Slideshow = () => {
  <div className={slideshow.skillheadline}>
    <span>Skills</span>
  </div>
-    <div className={slideshow.skillslist}>
+  {typeof skills === "string" && skills.trim() !== "" ?  (
+  <div className={slideshow.skilllistrun}>
+       <ul className={slideshow.skilllistrunul}>
+    {skills.split(',').map((skill, idx) => (
+      <li key={idx} className={slideshow.skillItem}>
+        {skill.trim()}
+      </li>
+         ))}
+       </ul>
+  </div>
+) : (      
+   <div className={slideshow.skillslist}>
 <span className={slideshow.skillslist_javascript}>Javascript</span>
 <span className={slideshow.skillslist_typescript}>Typescript</span>
 <span className={slideshow.skillslist_htmlcss}>HTML/CSS</span>
@@ -62,6 +73,7 @@ const Slideshow = () => {
 <span className={slideshow.skillslist_firewall}>Firewall</span>
 <span className={slideshow.skillslist_hacking}>Hacking</span>
  </div>
+)}
   </div> {/* end of slideshow.skills */}
 </div>
  );
