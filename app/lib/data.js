@@ -75,10 +75,14 @@ export  const data = [
         desc: `This tenant management system apps will accept multiple data input about tenant, so head
                of community can distingushed between tenant which owner or just rent. This apps quite simple
                and just using token based authentication for admin who need to input data. Features like search
-               with filter, update, delete, backup dan restore data exists too.`,
+               with filter, update, delete, backup dan restore data exists too. Technology i used is CRA with 
+               some react hooks like useState, useRef, useContext and useMemo with nodejs as backend and 
+               mongodb as database. Application security using jwt. I have refactor the source code
+               to be serverless so it could be hosted on vercel and mongodb atlas as demo purposes, link is here 
+               https://appsrw-serverless.vercel.app/`,
       skills: `Tenant Management System Development, Community-Based Web App Design,
                User Role Differentiation (Owner vs. Renter), Token-Based Authentication, 
-           CRUD Operations (Create, Read, Update, Delete), Data Filtering and Search Functionality,
+              CRUD Operations (Create, Read, Update, Delete), Data Filtering and Search Functionality,
              Data Backup and Restore, Simple Admin Panel Design, Secure Data Entry Workflows`
        }, 
       { 
@@ -117,13 +121,14 @@ export  const data = [
         },
         {
         text: "Delivered Cisco networking training including labs to professionals, goverment officials",
-        desc: `Networking cisco training, which using cisco syllabus and workbook, but i still need to try and test all the labs 
-               before delivering to students make sure it all works. And preparing networking devices which needs
-               to loan if need it.`,
+        desc: `Networking cisco training, which using cisco syllabus and workbook, wireshark, packet tracer, 
+               gns3, but i still need to try and test all the labs before delivering to students make sure it 
+               all works. And preparing networking devices which needs to loan if need it.`,
       skills: `Cisco Networking Training, Cisco Labs Setup and Testing, Routing and Switching (via Cisco Syllabus).
              Hands-On Network Configuration, Troubleshooting Network Devices, Preparing Physical Networking Equipment,
              Professional and Government-Level Training Delivery, Syllabus and Workbook-Based Instruction,
-             Pre-Lab Testing and Validation, Hardware Setup and Loan Coordination for Training`
+             Pre-Lab Testing and Validation, Hardware Setup and Loan Coordination for Training, 
+             Wireshark packet analysis`
         },
         {
         text: "Delivered Basic android java training for goverment officials",
@@ -188,8 +193,9 @@ export  const data = [
         desc: `There are around 2000 new computers needs to be installed anti virus like kaspersky, 
                makes all configuration synchronize and can recognize gateway to internet, proxy configuraton
                and lots other configuration which needs to be implemented, so i create script which pushes all
-               those configuration to new computers. And help troubleshooting laserjet printer not connect
-               through network too by changing priority on cisco asa nacl`,
+               those configuration to new computers. Using wireshark to analyze traffic for detecting rough DNS.
+               And help troubleshooting laserjet printer not connect through network too by changing priority on
+                cisco asa nacl`,
        skills: `Cisco ASA Firewall Configuration, NACL (Network Access Control List) Troubleshooting,
              Network Gateway & Proxy Configuration, Firewall Rule Prioritization,
               WSUS (Windows Server Update Services) Auto Push Setup, 
