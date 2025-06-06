@@ -100,7 +100,9 @@ export  const data = [
                I create this devices and at moment of covid and a few years after i still be able to sell this kind of 
                device, like pppoe to eth router using wavshare module and raspi zero w for home internet connection, 
                sold netflix and video conferencing raspi device to teachers on international school to support work from home,
-               sell retro game station based on raspberry pi 4 to some friends.`
+               sell retro game station based on raspberry pi 4 to some friends.`,
+      skills: `iot device prototyping, embedded linux, hardware integration, pppoe networking configuration, ethernet and
+               wireless networking, media device configuration, retro gaming system setup(retropie)`
        }
     ]
     },
