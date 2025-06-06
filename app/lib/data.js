@@ -92,7 +92,16 @@ export  const data = [
        skills: `React Component Development, NPM Package Publishing, Configurable UI Component Design,
            Dynamic Styling via Props (thickness, length, segments, colors), Reusable Dashboard UI Elements,
           UI Component Customization (for layout/visual separation)`
-      }
+      },
+      {
+        text: `develop and sell IOT device based on raspberry pi, like pppoe to eth router, netflix and video conferencing 
+               raspi, retro game station based on raspi as side project`
+        desc: `This is side project that i already done for a few years, as a freelance trainer, i have many spare times, then
+               I create this devices and at moment of covid and a few years after i still be able to sell this kind of 
+               device, like pppoe to eth router using wavshare module and raspi zero w for home internet connection, 
+               sold netflix and video conferencing raspi device to teachers on international school to support work from home,
+               sell retro game station based on raspberry pi 4 to some friends.`
+       }
     ]
     },
     { 
