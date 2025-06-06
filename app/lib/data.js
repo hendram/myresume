@@ -95,7 +95,7 @@ export  const data = [
       },
       {
         text: `develop and sell IOT device based on raspberry pi, like pppoe to eth router, netflix and video conferencing 
-               raspi, retro game station based on raspi as side project`
+               raspi, retro game station based on raspi as side project`,
         desc: `This is side project that i already done for a few years, as a freelance trainer, i have many spare times, then
                I create this devices and at moment of covid and a few years after i still be able to sell this kind of 
                device, like pppoe to eth router using wavshare module and raspi zero w for home internet connection, 
