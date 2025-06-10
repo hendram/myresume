@@ -77,13 +77,13 @@ export  const data = [
                and just using token based authentication for admin who need to input data. Features like search
                with filter, update, delete, backup dan restore data exists too. Technology i used is CRA with 
                some react hooks like useState, useRef, useContext and useMemo with nodejs as backend and 
-               mongodb as database. Application security using jwt. I have refactor the source code
-               to be serverless so it could be hosted on vercel and mongodb atlas as demo purposes, link is here 
-               https://appsrw-serverless.vercel.app/`,
+               mongodb as database. Application security using jwt. And linux server hardening, using SELinux. 
+               I have refactor the source code to be serverless so it could be hosted on vercel and mongodb atlas as demo purposes, link is here 
+               https://appsrw-serverless.vercel.app/ with username admin and password 123456`,
       skills: `Tenant Management System Development, Community-Based Web App Design,
                User Role Differentiation (Owner vs. Renter), Token-Based Authentication, 
               CRUD Operations (Create, Read, Update, Delete), Data Filtering and Search Functionality,
-             Data Backup and Restore, Simple Admin Panel Design, Secure Data Entry Workflows`
+             Data Backup and Restore, Simple Admin Panel Design, Secure Data Entry Workflows, Linux Server Hardening`
        }, 
       { 
         text: "npmjs.org: lineprogress (react component)",
@@ -173,10 +173,11 @@ export  const data = [
       {
       text: "Implemented strategic implementation plan and upgrade paths for the migration of legacy core system",
       desc: `Implemented new datacenter system which all redundant, and having three layer design. Redundancy from
-             core cisco switch, access switch, cisco firewall ASA, NAS backup storage server and even IPS event management module. 
+             Windows server 2013, Linux squid proxy,  core cisco switch, access switch, cisco firewall ASA, 
+             NAS backup storage server and even IPS event management module. 
              CSS load balancer terminated ssl with single arm configuration and balancing traffic into servers are 
              redundant too. Integrating cisco access switch to MSTP, configuring and coordinating cisco switch 
-             installation with team`,
+             installation with team, Configuring GPO for Windows Server Hardening.`, 
      skills: `Strategic IT Implementation Planning, Legacy System Migration, 
            Datacenter Architecture Design (Three-Layer Design), Redundant System Design (Network, Storage, Security),
            Cisco Core & Access Switch Configuration, Cisco ASA Firewall Management,
