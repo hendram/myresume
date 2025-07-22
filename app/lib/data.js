@@ -5,16 +5,17 @@ export  const data = [
       duration: "Feb 2023 - Current",
       details: [
         {
-        text: "Delivered Javascript and typescript programming training to university students",
+        text: "Delivered Javascript, typescript programming, and cloud training to university students",
         desc: `Mentoring university students to finishing their capstone projects, explaining detailed about
                javascript debugging process, css debugging process, and how complex javascript async works,
                delivering first in Indonesia IT training along with AI using chatGPT for advanced generation UI/UX, 
                like generating simple framework for dashboard. Working together using zoom and google meet 
                with hundreds of students all over indonesia and using tools for remote working like slack, 
                notion, and other custom web based tools which outcome results all my students graduate with grade 
-               A(highest grade)`,
+               A(highest grade),
+               Preparing Labs like Kubernetes k3s by migrating and refactor from multipass vm to ova standard vm`, 
         skills: `javascript, typescript, async javascript, javascript debugging, css debugging, ai assist ui/ux 
-                 generator, git, ci/cd`
+                 generator, git, ci/cd, kubernetes, docker, calico, bgp routing protocol`
         },
        {
         text: `Delivered Web and API Application Penetration test training for banks and securities customer using 
