@@ -1,7 +1,7 @@
 export const certification = {
-     networking: "ccna, ccnp",
-     ethical_hacking: "ceh",
-     cloud: "calico" 
+     networking: "https://tinyurl.com/HendraCCNP",
+     ethical_hacking: "https://tinyurl.com/HendraCEH",
+     cloud: "https://tinyurl.com/HendraCalico" 
 }
 
 
