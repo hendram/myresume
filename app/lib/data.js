@@ -189,17 +189,18 @@ export  const data = [
            Hands-On Network Device Installation`
       },
       {
-      text: `Designing and configuring nagios monitoring server`,
-      desc: `Designing and configuring nagios monitoring server to monitor each server, like database, 
-        proxy, mail, nginx reverse proxy, wsus, active directory, backup server is down or keep up and healthly.
-        Configuring all ntp clients on all these servers to synchronize logs and times between nagios monitoring 
-        system and all agent servers.`,
+      text: `Designing three tier enterprise firewall architecture on AirAsia project`,
+      desc: `Designing three tier enterprise firewall architechture using juniper firewall on Air asia project, which having first layer 
+             branch to web server, and last end going to oracle db servers all redundant. Also designing and configuring nagios monitoring server 
+            to monitor each server, like database, proxy, mail, nginx reverse proxy, wsus, active directory, backup server is down or keep up and 
+            healthly. Configuring all ntp clients on all these servers to synchronize logs and times between nagios monitoring 
+            system and all agent servers on lemhannas project.`,
     skills: `Nagios Monitoring Server Design & Configuration,
              Server Health Monitoring (Database, Proxy, Mail, NGINX, WSUS, AD, Backup Servers),
            Uptime & Status Alerting, Agent-Based Monitoring Setup, NTP Client Configuration (Network Time Protocol),
             Time-Synchronized Log Management Across Servers, Coordinating Time Consistency for Monitoring Accuracy,
          Integrating Monitoring Across Heterogeneous Server Types, Centralized Monitoring Architecture,
-           Infrastructure Health Visibility`
+           Infrastructure Health Visibility, Three tier enterprise firewall architechture`
       },
       {
         text: "Troubleshooting complex nacl on cisco firewall asa, and wsus auto push update",
@@ -221,7 +222,9 @@ export  const data = [
         desc: `Design, negotiate and dealing with some NAP provider to migrate wireless backbone ISP to fiber 
                optic spanning multiple building on sudirman area leading to cut cost 200% with faster and bigger
                bandwidth using fiber optic and better infrastucture, IP address new assignment and changing
-               on every mikrotik, linksys and 3com devices for ISP client and their clients too`,
+               on every mikrotik, linksys and 3com devices for ISP client and their clients too. At same time solving integration enterprise 
+               network problem which causing video monitor hopping for cctv on ICE BSD Project which integrate OLT, ONT with various brand 
+               networking vendor`,
       skills: `ISP Backbone Migration Planning, Wireless to Fiber Optic Transition,
             Multi-Building Network Design, IP Address Reassignment, Device Configuration (Mikrotik, Linksys, 3Com),
       Network Cost Reduction Planning (Achieved 200% Cost Saving), Bandwidth and Infrastructure Upgrades,
