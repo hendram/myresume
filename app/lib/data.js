@@ -1,7 +1,7 @@
 export  const data = [
     { 
       company: "PT Revou",
-      position: "IT Trainer",
+      position: "IT Traine",
       duration: "Feb 2023 - Current",
       details: [
         {
