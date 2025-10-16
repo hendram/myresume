@@ -1,5 +1,20 @@
 export  const data = [
     { 
+      company: "PT Haltev, PT Citra Samudra Consultant",
+      position: "IT Trainer",
+      duration: "Feb 2023 - Current",
+      details: [
+        {
+        text: "Delivered Ai, Java Training for professional students",
+        desc: `Teach Java and Ai concept, creating syllabus and associate projects for training using RAG, Reranking, LLM,
+               Java, Nodejs, Python, Redis, PostgresQL and React.
+        skills: `javascript, typescript, async javascript, javascript debugging, css debugging, ai assist ui/ux 
+                 generator, git, ai rag, reranking, models inference, python, java, react, postgreql, gemini llm, Mini-LLM,
+                 OLLAMA, MCP`
+        },
+       ]
+        },
+    { 
       company: "PT Revou",
       position: "IT Trainer",
       duration: "Feb 2023 - Current",
