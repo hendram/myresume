@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export  const data = [
     { 
       company: "PT Haltev, PT Citra Samudra Consultant",
@@ -23,30 +22,6 @@ export  const data = [
         {
         text: "Delivered Javascript, typescript programming, and cloud training to university students",
         desc: `Mentoring university students to finishing their capstone projects, explaining detailed about
-=======
-export const data = [
-       {
-              company: "PT Haltev",
-              position: "IT Trainer",
-              duration: "July 2025 - Now",
-              details: [
-                     {
-                            text: "Delivered java, powerbi training",
-                            desc: "Side project can be see at https://run.devpost.com/submissions/search?utf8=%E2%9C%93&terms=mobile+ads+car+analytics&sort=" 
-              and  https://youtu.be/_UmGmUdQlVU ",
-                                   skills: `java, powerbi, cloud run, firebase, tidb, mongodb, redis, elastic`
-       },
-] 
-},
-{
-       company: "PT Revou",
-              position: "IT Trainer",
-                     duration: "Feb 2023 - June 2025",
-                            details: [
-                                   {
-                                          text: "Delivered Javascript, typescript programming, and cloud training to university students",
-                                          desc: `Mentoring university students to finishing their capstone projects, explaining detailed about
->>>>>>> a6d4e81 (lastcommit)
                javascript debugging process, css debugging process, and how complex javascript async works,
                delivering first in Indonesia IT training along with AI using chatGPT for advanced generation UI/UX, 
                like generating simple framework for dashboard. Working together using zoom and google meet 
