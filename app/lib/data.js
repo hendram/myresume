@@ -6,10 +6,9 @@ export  const data = [
       details: [
         {
         text: "Delivered Javascript, typescript programming, and cloud training to university students",
-        desc: `Side job is building apps on this link https://youtu.be/3HO-tBAzMrk and
-                https://www.youtube.com/watch?v=_UmGmUdQlVU`, 
-        skills: `javascript, typescript, async javascript, javascript debugging, css debugging, ai assist ui/ux 
-                 generator, git, ci/cd, kubernetes, docker, calico, bgp routing protocol`
+        desc: `Side job is building apps on this link https://github.com/hendram`, 
+        skills: `javascript, typescript, ai assist ui/ux generator, git, ci/cd, kubernetes, docker, calico, 
+                 bgp routing protocol, ai google adk, ai rag, genai, python`
         }
         ]
    },

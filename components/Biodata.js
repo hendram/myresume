@@ -42,7 +42,7 @@ return (
         <span className={` ${merriweather.variable} ${biodata.myname} `}>Hendra Mulyanto </span>
       </div>
       <div className={biodata.mytitlebox}>
-        <span className={` ${merriweather.variable} ${biodata.mytitle} `}> Web Developer </span>
+        <span className={` ${merriweather.variable} ${biodata.mytitle} `}> Ai Integration Engineer </span>
       </div>
     </div>
   </div>

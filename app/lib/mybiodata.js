@@ -5,6 +5,6 @@ export const mybiodata =
       birthdate: "november 28, 1976",
       citizenship: "Indonesian",
       religion: "buddhist",
-      github: "https://www.github.com/hendram"
+      github: "https://hendram.github.io"
     };
 
