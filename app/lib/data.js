@@ -5,10 +5,10 @@ export  const data = [
       duration: "May 2025 - Current",
       details: [
         {
-        text: "Delivered Javascript, typescript programming, and cloud training to university students",
-        desc: `Side job is building apps on this link https://github.com/hendram`, 
+        text: "Delivered Javascript, typescript programming, and cloud training to professional students",
+        desc: `Side job is building apps on this link https://hendram.github.io`, 
         skills: `javascript, typescript, ai assist ui/ux generator, git, ci/cd, kubernetes, docker, calico, 
-                 bgp routing protocol, ai google adk, ai rag, genai, python`
+                 bgp routing protocol, ai google adk, ai rag, genai, python, microservices, user and system auth`
         }
         ]
    },
